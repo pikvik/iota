@@ -1,0 +1,51 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.active-list-item{
+  color: #3F51B5;
+}
+
+.app-content {
+  padding: 5%;
+}
+.footer {
+  position: fixed;
+  font-size:16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c2185b;
+  color: white;
+  display: flex;
+  
+  
+}
+.title{
+    text-align: center;
+}
+.social{
+  display:inline-block;
+}
+.footer .info { line-height: 64px ;display:inline}
+
+
+@media (-ms-high-contrast:active){.footer{outline:solid 1px}}
+.footer{display:flex;box-sizing:border-box;padding:0 16px;width:100%;flex-direction:row;align-items:center;white-space:nowrap}
+.footer{display:flex;box-sizing:border-box;flex-direction:column;width:100%}
+.footer{min-height:64px}.footer{height:64px}
+@media (max-width:599px){.footer{min-height:56px}.footer{height:56px}}
